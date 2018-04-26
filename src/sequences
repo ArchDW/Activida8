@@ -1,0 +1,40 @@
+ejercicio 1.1
+vINCENT                 //atomo
+Footmassage				//variable
+variable23				//variable
+Variable2000			//variable
+big_kahuna_burger		//atomo
+’big kahuna burger’		//atomo
+big kahuna burger 		//nada
+’Jules’ 				//atomo
+_Jules					//variable
+’_Jules’				//nada
+
+
+ejercicio 1.2
+
+loves(Vincent,mia)					//functor  vicente quiere a mia
+’loves(Vincent,mia)’ 				//atomo
+Butch(boxer)						//nada
+boxer(Butch)						//functor   Butch es un boxer
+and(big(burger),kahuna(burger))		//functor   big y kahuna quieren una burger
+and(big(X),kahuna(X))				//functor   big y kahuna quieren X
+_and(big(X),kahuna(X))				//nada
+(Butch kills Vincent)				//nada
+kills(Butch Vincent)				//nada
+kills(Butch,Vincent 				//nada
+
+
+ejercicio 1.3
+1 woman(vincent).						//clausula		
+2 woman(mia).							//clausula
+3 man(jules).							//clausula
+4 person(X):- man(X); woman(X).			//regla  cabeza: person	
+5 loves(X,Y):- father(X,Y).				//regla	 cabeza: loves	
+6 father(Y,Z):- man(Y), son(Z,Y).		//regla  cabeza: father
+7 father(Y,Z):- man(Y), daughter(Z,Y).	//regla  cabeza: father
+
+ejercicio 1.4
+
+
+ 
